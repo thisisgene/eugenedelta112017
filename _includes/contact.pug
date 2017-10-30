@@ -1,0 +1,32 @@
+
+.section#contact
+  hr
+  .contact-wrapper
+    h2 contact & booking
+    a(href='mailto:contact@eugenedelta.com').email contact@eugenedelta.com
+
+    .social-media
+      a(href='https://facebook.com/eugenedelta') facebook
+      a(href='https://instagram.com/eugene.delta') instagram
+      a(href='https://twitter.com/eugenedelta3000') twitter
+
+  .newsletter
+    h2 Subscribe to NEWSLETTER
+    // Begin MailChimp Signup Form
+    link(href='//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css', rel='stylesheet', type='text/css')
+
+    #mc_embed_signup
+      form#mc-embedded-subscribe-form.validate(action='//eugenedelta.us15.list-manage.com/subscribe/post?u=b9321a8c2677e57b97cfebee7&id=9dd567bfa5', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
+        #mc_embed_signup_scroll.newsletter-form
+          input#mce-EMAIL.email(type='email', value='', name='EMAIL', placeholder='email address', required='')
+          // real people should not fill this in and expect good things - do not remove this or risk form bot signups
+          div(style='position: absolute; left: -5000px;', aria-hidden='true')
+            input(type='text', name='b_b9321a8c2677e57b97cfebee7_9dd567bfa5', tabindex='-1', value='')
+          .clear
+            a
+              input#mc-embedded-subscribe.button(type='submit', value='Subscribe', name='subscribe')
+    // End mc_embed_signup
+
+
+  .footer
+    p © 2017 by Eugene Delta. All rights reserved.
