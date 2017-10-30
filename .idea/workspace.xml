@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd34b724-e2b2-4181-994b-95b56f3bcc28" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/contact.pug" afterPath="$PROJECT_DIR$/_includes/contact.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/3-sections/contact.sass" afterPath="$PROJECT_DIR$/assets/css/3-sections/contact.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="dd34b724-e2b2-4181-994b-95b56f3bcc28" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -59,7 +53,7 @@
       <file leaf-file-name="contact.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/3-sections/contact.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
+            <state relative-caret-position="827">
               <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
               <folding />
             </state>
@@ -344,12 +338,12 @@
       <workItem from="1508976596906" duration="7655000" />
       <workItem from="1509358534554" duration="529000" />
       <workItem from="1509362286812" duration="13206000" />
-      <workItem from="1509377427791" duration="1103000" />
+      <workItem from="1509377427791" duration="1195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41035000" />
+    <option name="totallyTimeSpent" value="41127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -694,7 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/3-sections/contact.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
+        <state relative-caret-position="827">
           <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
           <folding />
         </state>
