@@ -173,25 +173,31 @@ hr {
   .section#contact .contact-wrapper h2 {
     font-size: 3rem;
     margin-bottom: .4rem; }
-  .section#contact .contact-wrapper .email {
+    @media (max-width: 460px) {
+      .section#contact .contact-wrapper h2 {
+        font-size: 2.4rem; } }
+  .section#contact .contact-wrapper .email-link {
     font-size: 2rem;
     color: #00EAFF;
     display: block;
     margin: 1rem auto; }
     @media (max-width: 460px) {
-      .section#contact .contact-wrapper .email {
-        font-size: 7vw; } }
+      .section#contact .contact-wrapper .email-link {
+        font-size: 6.5vw; } }
     @media (max-width: 360px) {
-      .section#contact .contact-wrapper .email {
-        font-size: 6vw; } }
-  .section#contact .contact-wrapper .social-media a {
+      .section#contact .contact-wrapper .email-link {
+        font-size: 5vw; } }
+  .section#contact .contact-wrapper .social-media .sm-link {
     font-size: 1.6rem;
     text-decoration: none;
     margin: 0 .4rem;
     color: #00EAFF; }
     @media (max-width: 420px) {
-      .section#contact .contact-wrapper .social-media a {
+      .section#contact .contact-wrapper .social-media .sm-link {
         display: block; } }
+    @media (max-width: 360px) {
+      .section#contact .contact-wrapper .social-media .sm-link {
+        font-size: 1.3rem; } }
   .section#contact .newsletter {
     background: rgba(119, 119, 119, 0.5);
     border: 3px dotted rgba(0, 234, 255, 0.7);
@@ -201,6 +207,9 @@ hr {
     .section#contact .newsletter h2 {
       margin: 0;
       color: black; }
+    @media (max-width: 769px) {
+      .section#contact .newsletter .email {
+        text-align: center; } }
   .section#contact .footer {
     margin-top: 2rem;
     margin-bottom: .2rem; }
