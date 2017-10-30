@@ -57,7 +57,7 @@ hr {
       width: 300px;
       height: 300px;
       border: 2px solid #bbb;
-      margin: 2rem;
+      margin-right: 2rem;
       filter: drop-shadow(0 0 0px #00EAFF);
       transition: filter 1400ms ease-in-out; }
       @media (max-width: 361px) {
