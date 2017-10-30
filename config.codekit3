@@ -198,6 +198,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/logo.png": {
+		"ft": 32768,
+		"iS": 10046,
+		"oA": 0,
+		"oAP": "\/assets\/img\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/ystrdsdrm.png": {
 		"ft": 32768,
 		"iS": 35865,
