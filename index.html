@@ -23,8 +23,8 @@
   <!-- Custom CSS-->
   <link rel="stylesheet" href="assets/css/main.css">
   <!-- javascript-->
-  <!--script(type='text/javascript', src='assets/js/jquery-3.2.1.min.js')-->
-  <!--script(type='text/javascript', src='assets/js/script.js')-->
+  <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/script.js"></script>
   <!--// Piwik-->
   <!--script(type='text/javascript').-->
   <!--  var _paq = _paq || [];-->
@@ -42,6 +42,30 @@
   <!--    img(src='//analytics.bawyl.com/piwik.php?idsite=3', style='border:0;', alt='')-->
   <!--// End Piwik Code-->
 </head>
+<div class="cookie-disclaimer">
+  <div class="note">
+    <p>This site uses cookies. By using our website, you agree to the use of cookies as described in our</p><a class="iubenda-black iubenda-embed" href="//www.iubenda.com/privacy-policy/8289165" title="Privacy Policy">Privacy Policy
+      <script type="text/javascript">
+        (function (w, d) {
+          var loader = function () {
+            var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0];
+            s.src = "//cdn.iubenda.com/iubenda.js";
+            tag.parentNode.insertBefore(s, tag);
+          };
+          if (w.addEventListener) {
+            w.addEventListener("load", loader, false);
+          } else if (w.attachEvent) {
+            w.attachEvent("onload", loader);
+          } else {
+            w.onload = loader;
+          }
+        })(window, document);
+      </script></a>
+  </div>
+  <div class="dismiss">
+    <button onclick="hideCookie()">OK</button>
+  </div>
+</div>
 <div class="title"><img src="assets/img/logo.png"></div>
 <div class="main-wrapper">
   <div class="main-container"></div>

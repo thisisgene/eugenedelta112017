@@ -14,6 +14,40 @@ body
     size: cover
   overflow-x: hidden
 
+.cookie-disclaimer
+  position: absolute
+  top: 0
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+  background: rgba(#00EAFF, .5)
+  width: 100%
+  transition: transform 400ms ease-in-out
+
+  .note
+    display: flex
+    flex-direction: row
+    align-items: center
+
+    p
+      margin: 1rem .6rem
+
+  .dismiss
+    margin: 0 2rem
+    button
+      border: 2px solid #222
+      background: transparent
+      width: 2.5rem
+      height: 2rem
+      color: #222
+      font:
+        weight: bold
+      cursor: pointer
+      &:hover
+        background: rgba(white, .3)
+  &.hidden
+    transform: translateY(-100%)
 .main-wrapper
   max-width: 700px
   margin: 0 auto
